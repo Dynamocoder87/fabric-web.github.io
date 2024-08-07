@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>essential</title>
+    <link rel="stylesheet" href="stYle.css">
+</head>
+<body>
+    
+  <div id="header">
+    <h5>Chamkeeli Collection is live.<strong>Shop</strong>  your favourites now!</h5> 
+</div>
+
+<div class="navbar">
+
+<ul class="sidebar">
+<li onclick="hideSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+<li><a href="file:///C:/Users/User/Desktop/New%20folder/aj%20home.html">Home</a></li>
+<li><a href="file:///C:/Users/User/Desktop/New%20folder/contact.html">Contact</a></li>
+<li><a href="file:///C:/Users/User/Desktop/New%20folder/essential.html">Essential</a></li>
+<li><a href="file:///C:/Users/User/Desktop/New%20folder/luxury.html">Luxury</a></li>
+</ul>
+<ul>
+<li><a href="#"><img src="file:///C:/Users/User/Desktop/New%20folder/images/a2f8fd118502019.Y3JvcCwyNTAwLDE5NTUsMCwyNzI-removebg-preview.png" width="100" height="60"></a></li>
+<li class="hideOnMobile"><a href="file:///C:/Users/User/Desktop/New%20folder/aj%20home.html">Home</a></li>
+<li class="hideOnMobile"><a href="file:///C:/Users/User/Desktop/New%20folder/contact.html">Contact</a></li>
+<li class="hideOnMobile"><a href="file:///C:/Users/User/Desktop/New%20folder/essential.html">Essential</a></li>
+<li class="hideOnMobile"><a href="file:///C:/Users/User/Desktop/New%20folder/luxury.html">Luxury</a></li>
+<li class="menu-button"onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></i></li></a>
+</ul>
+        </div>
+
+      </div>
+        
+<script>
+function showSidebar(){
+const sidebar = document.querySelector('.sidebar') 
+sidebar.style.display='flex'
+}
+function hideSidebar(){
+const sidebar = document.querySelector('.sidebar') 
+sidebar.style.display='none'
+}
+</script>
+
+
+  <div class="slideshow-container2">
+
+    <div class="mySlides fade">
+      <img src="file:///C:/Users/User/Desktop/New%20folder/images/Web-Banner_2.webp" width="100%" height="450px">
+      <div class="text">New Arrival</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="file:///C:/Users/User/Desktop/New%20folder/images/hq720.jpg" width="100%" height="450px">
+      <div class="text">Exclusive</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="file:///C:/Users/User/Desktop/New%20folder/images/maxresdefault.jpg" width="100%" height="450px">
+      <div class="text">Luxury</div>
+    </div>
+    
+    </div>
+    
+<br>
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+    
+<script>
+    let slideIndex = 0;
+    showSlides();
+    
+    function showSlides() {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}    
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 2000); 
+    }
+    </script>
+
+<div class="cards">
+  <div class="image">
+<img src="file:///C:/Users/User/Desktop/New%20folder/images/01_c8b4927a-83c8-44fd-9992-97532347e8d2.webp"  alt="girl"  width="100%" height="350px">
+  </div>
+  <div class="title">
+    <h4>AJCE-O8 
+      <br>EMBROIDED<br>
+    CHIFFON 3PCS</h4>
+  </div>
+
+  <div class="des">
+    <h5>RS. 9,250</h5>
+<button>ADD TO CART</button>
+
+
+  </div>
+</div>
+<div class="cards">
+  <div class="image">
+<img src="file:///C:/Users/User/Desktop/New%20folder/images/2-05_9531ac9d-f9ff-4ec3-b55b-bd17d56681c8.webp">
+  </div>
+  <div class="title">
+    <h4>AJCE-O8 
+      <br>EMBROIDED<br>
+    CHIFFON 3PCS</h4>
+  </div>
+
+  <div class="des">
+    <h5>RS. 9,750</h5>
+<button>ADD TO CART</button>
+
+  </div>
+</div>
+<div class="cards">
+  <div class="image">
+<img src="file:///C:/Users/User/Desktop/New%20folder/images/01_2354264b-a998-4fa2-9e6c-73a78d621b13.webp">
+  </div>
+  <div class="title">
+    <h4>AJCE-O8 
+      <br>EMBROIDED<br>
+    CHIFFON 3PCS</h4>
+  </div>
+
+  <div class="des">
+    <h5>RS. 9,750</h5>
+<button>ADD TO CART</button>
+
+  </div>
+</div>
+
+
+<div class="cards">
+  <div class="image">
+<img src="file:///C:/Users/User/Desktop/New%20folder/images/MG_0330.webp">
+  </div>
+  <div class="title">
+    <h4>AJCE-O8 
+      <br>EMBROIDED<br>
+    CHIFFON 3PCS</h4>
+  </div>
+
+  <div class="des">
+    <h5>RS. 10,750</h5>
+<button>ADD TO CART</button>
+
+  </div>
+</div>
+
+
+<div class="container-b">
+  <img src="file:///C:/Users/User/Desktop/New%20folder/images/MG_4042.webp" alt="Avatar" class="image">
+  <div class="overlay">
+    <div class="img-d"><img src="file:///C:/Users/User/Desktop/New%20folder/images/MG_3249.webp" alt="Avatar" class="image"></div>
+  </div>
+</div>
+
+
+<div class="container-b">
+  <img src="file:///C:/Users/User/Desktop/New%20folder/images/MG_7786_edad2ac8-1f6e-4dcd-b411-2ca68af45ea6.webp" alt="Avatar" class="image">
+  <div class="overlay">
+    <div class="img-d"><img src="file:///C:/Users/User/Desktop/New%20folder/images/MG_7594_4a5838b9-b759-4554-909c-53cc030ff396.webp" alt="Avatar" class="image"></div>
+  </div>
+</div>
+</body>
+</html>
