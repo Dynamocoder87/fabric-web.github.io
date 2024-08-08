@@ -406,6 +406,8 @@ button:hover{
   cursor: pointer;
 }
 .footer{
+    margin-top: 70%;
+.footer{
     @media screen and (max-width: 900px){
         .card{
             width: 40%;
