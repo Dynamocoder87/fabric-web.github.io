@@ -405,7 +405,7 @@ button:hover{
   transition: 5s;
   cursor: pointer;
 }
-.footer{
+/*.footer{
     margin-top: 70%;
 .footer{
     @media screen and (max-width: 900px){
@@ -426,7 +426,7 @@ button:hover{
         .footer{
             margin-top: 20%;
         }
-    }
+    }*/
 
 
 /*contact*/
