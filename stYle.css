@@ -99,7 +99,7 @@ form.ser-icon input[type=text] {
 
 form.ser-icon button {
   float: left;
-  width: 3%;
+  width: 7%;
   padding: 5px;
   background: #01060b;
   color: white;
@@ -208,7 +208,7 @@ padding: 20px;
     width: 100%;
   }
 }
-/*image slider*/
+/*image slider
 body, html {
   height: 100%;
   margin: 0;
@@ -233,8 +233,8 @@ body, html {
 .img6 { background-image: url("file:///C:/Users/User/Desktop/New%20folder/images/shop_now_pyaar_desktop.webp"); }
 
 .bg-text {
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through 
   color: white;
   font-weight: bold;
   font-size: 80px;
@@ -247,7 +247,7 @@ body, html {
   width: 300px;
   padding: 20px;
   text-align: center;
-}
+}*/
 
 
 
@@ -263,7 +263,7 @@ body{
   
   background-color: rgb(41, 41, 40);
   padding: 70px 0;
-  margin-top: 60%;}
+  margin-top: 70%;}
   
 .footer .containt{
   max-width: 1170px;
@@ -358,7 +358,7 @@ display: block;
 .cards{
   height: auto;
   width: 22%;
-  display:inline-block;
+  display: inline-block;
 border-radius: 5px;
 margin: 40px 15px 40px 15px;
 box-shadow: 1px 1px 3px black;
@@ -405,6 +405,27 @@ button:hover{
   transition: 5s;
   cursor: pointer;
 }
+.footer{
+    @media screen and (max-width: 900px){
+        .card{
+            width: 40%;
+            margin:20px 30px;
+        }
+        .footer{
+            margin-top: 20%;
+        }
+    }
+
+    @media screen and (max-width: 500px){
+        .cards{
+            width: 80%;
+            margin: 30px 15px;
+        }
+        .footer{
+            margin-top: 20%;
+        }
+    }
+
 
 /*contact*/
 
